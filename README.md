@@ -11,17 +11,17 @@ docker compose 筆記
 
 Windows 功能那邊要安裝 Hyper-V，所以 Windows 10 Home 不能用
 
-從官網[下載](https://www.docker.com/products/docker#/windows){:target="_blank"}
+從官網[下載](https://www.docker.com/products/docker#/windows)
 
-[教學](https://docs.docker.com/docker-for-windows/#/shared-drives){:target="_blank"}
+[教學](https://docs.docker.com/docker-for-windows/#/shared-drives)
 
 &nbsp;
 
-如果要玩 Windows Container，可以從[這裡](https://docs.docker.com/docker-for-windows/#/download-docker-for-windows){:target="_blank"}下載 Beta 版本
+如果要玩 Windows Container，可以從[這裡](https://docs.docker.com/docker-for-windows/#/download-docker-for-windows)下載 Beta 版本
 
 微軟官方也有提供教學
 
-[Windows 10 上的 Windows 容器](https://docs.microsoft.com/zh-tw/virtualization/windowscontainers/quick_start/quick_start_windows_10){:target="_blank"}
+[Windows 10 上的 Windows 容器](https://docs.microsoft.com/zh-tw/virtualization/windowscontainers/quick_start/quick_start_windows_10)
 
 ### Mac
 
@@ -37,7 +37,7 @@ docker settings => Shared Drives
 
 不過如果有裝防火牆，通常直接勾 c: 就會出現 firewall detected
 
-這邊有[官方的解決方法](https://docs.docker.com/docker-for-windows/#/shared-drives){:target="_blank"}
+這邊有[官方的解決方法](https://docs.docker.com/docker-for-windows/#/shared-drives)
 
 不過好像沒不用麻煩
 
@@ -84,7 +84,7 @@ services 下一層是服務的名稱，可以任意取名
 
 就算 depends_on 資料庫，但資料庫未必比 ap 先啟動
 
-不過官方有提供[方法](https://docs.docker.com/compose/startup-order/){:target="_blank"}
+不過官方有提供[方法](https://docs.docker.com/compose/startup-order/)
 
 ### ports
 
@@ -124,7 +124,7 @@ docker-compose up -d
 
 -d 就 run in background
 
-會自動 pull 本機沒有安裝的 image
+會自動 pull 本機沒有的 image
 
 
 ### 移除
